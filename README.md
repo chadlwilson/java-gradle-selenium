@@ -14,10 +14,9 @@ The tests are run on Chrome by default.
 
 ### Prerequisites
 
-This example requires the following softwares to run.
-  * [Java 1.7](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or above
-    * Note that Gauge works with Java 1.6 and above. But this particular example uses Java 1.7
-  * [Gauge](http://getgauge.io/get-started/index.html)
+This example requires the following software to run.
+  * [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or above
+  * [Gauge](https://gauge.org/getting-started-guide/we-start/index.html)
   * Gauge Java plugin
     * can be installed using `gauge install java`
   * Chrome
@@ -33,7 +32,7 @@ java -jar activeadmin-demo.war
 
 ## Run specs
 
-If you already have Gradle installed, you can execute specs as `gradle specs`. Otherwise, you can use the gradle wrapper and run specs as below:
+If you already have Gradle installed, you can execute specs as `gradle gauge`. Otherwise, you can use the gradle wrapper and run specs as below:
 
 ### On Linux / Mac
 
@@ -59,7 +58,7 @@ or
 ```
 
 Note:
-  * Gauge can also be used with other [build tools](https://docs.gauge.org/latest/configuration.html#build-tools) like maven and ant.
+  * Gauge can also be used with other [build tools](https://docs.gauge.org/latest/configuration.html#build-tools) like maven and Ant.
   * You can use Gauge even without a build script!
 
 ## Topics covered in the example
@@ -72,4 +71,4 @@ Note:
 * Running Gauge specs with [Gradle](http://gradle.org)
 
 # Copyright
-Copyright 2016, ThoughtWorks Inc.
+Copyright 2019, ThoughtWorks Inc.

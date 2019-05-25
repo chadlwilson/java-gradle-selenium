@@ -1,23 +1,16 @@
-apply plugin: 'java'
-apply plugin: 'idea'
-apply plugin: 'gauge'
+plugins {
+    id 'java'
+    id 'idea'
+    id 'org.gauge' version '1.8.0'
+}
 
 group = "gauge-example-java"
 version = "1.0.0"
 
 description = "Gauge example using selenium web driver"
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
-
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.thoughtworks.gauge.gradle:gauge-gradle-plugin:+'
-    }
-}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
